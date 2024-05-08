@@ -1,4 +1,11 @@
- .reset {
+.body {
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
     position: absolute;
     width: 400px;
     background: #222;
