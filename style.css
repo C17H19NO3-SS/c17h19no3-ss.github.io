@@ -1,4 +1,4 @@
- .signin {
+ .reset {
     position: absolute;
     width: 400px;
     background: #222;
@@ -11,7 +11,7 @@
     box-shadow: 0 15px 35px rgba(0,0,0,9);
 }
 
-     .signin .content {
+     .reset .content {
         position: relative;
         width: 100%;
         display: flex;
@@ -21,25 +21,25 @@
         gap: 40px;
     }
 
-        .signin .content h2 {
+        .reset .content h2 {
             font-size: 2em;
             color: #1c438e;
             text-transform: uppercase;
         }
 
-         .signin .content .form {
+         .reset .content .form {
             width: 100%;
             display: flex;
             flex-direction: column;
             gap: 25px;
         }
 
-             .signin .content .form .inputBox {
+             .reset .content .form .inputBox {
                 position: relative;
                 width: 100%;
             }
 
-                 .signin .content .form .inputBox input {
+                 .reset .content .form .inputBox input {
                     position: relative;
                     width: 100%;
                     background: #333;
@@ -52,7 +52,7 @@
                     font-size: 1em;
                 }
 
-                 .signin .content .form .inputBox i {
+                 .reset .content .form .inputBox i {
                     position: absolute;
                     left: 0;
                     padding: 15px 10px;
@@ -62,14 +62,14 @@
                     pointer-events: none;
                 }
 
-.signin .content .form .inputBox input:focus ~ i,
-.signin .content .form .inputBox input:valid ~ i {
+.reset .content .form .inputBox input:focus ~ i,
+.reset .content .form .inputBox input:valid ~ i {
     transform: translateY(-7.5px);
     font-size: 0.8em;
     color: #fff;
 }
 
-            .signin .content .form .links {
+            .reset .content .form .links {
                 position: relative;
                 width: 100%;
                 display: flex;
@@ -77,17 +77,17 @@
                 color: #1c438e;
             }
 
-    .signin .content .form .links a {
+    .reset .content .form .links a {
         color: #fff;
         text-decoration: none;
     }
 
-        .signin .content .form .links a:nth-child(2) {
+        .reset .content .form .links a:nth-child(2) {
             color: #0f0;
             font-weight: 600;
         }
 
-            .signin .content .form .inputBox input[type="submit"], .redirect {
+            .reset .content .form .inputBox input[type="submit"], .redirect {
                 padding: 10px;
                 background: #1c438e;
                 color: #000;
