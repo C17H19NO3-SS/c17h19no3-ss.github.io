@@ -101,11 +101,11 @@
                 color: white;
             }
 
-input[type="submit"]:active {
+input[type="submit"]:active, .redirect {
     opacity: 0.6;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover, .redirect {
     background-color: #0f2861 !important;
 }
 
